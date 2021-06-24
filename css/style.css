@@ -1,0 +1,136 @@
+
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* common end */
+
+/*Header start*/
+header{
+	padding: 15px 0;
+}
+
+
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 15%;
+	margin-top: 9px;
+
+}
+
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	float: right;
+	width: 75%;
+	margin-top: 10px;
+
+}
+
+.menu ul{
+	float: right;
+
+}
+
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0px 15px;
+	display: inline-block;
+	transition: .3s;
+
+}
+
+.menu ul li a:hover {
+	color: #BD233F;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+/*Header end*/
+
+/*banner start */
+.banner{
+	background-image: url(../images/business2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 58px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_content button{
+	width: 260px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+
+
+/*footer start*/
+footer{
+	background-color: #535D69;
+	padding: 30px 0;
+}
+.f_text{
+	text-align: center;
+}
+.f_text p{
+	font-family: sans-serif;
+	margin: 0;
+	color: white;
+}
+
+/*footer end*/
